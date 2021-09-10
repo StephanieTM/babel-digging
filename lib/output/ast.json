@@ -1,0 +1,242 @@
+{
+	"type": "File",
+	"start": 0,
+	"end": 55,
+	"loc": {
+		"start": {
+			"line": 1,
+			"column": 0
+		},
+		"end": {
+			"line": 4,
+			"column": 0
+		}
+	},
+	"errors": [],
+	"program": {
+		"type": "Program",
+		"start": 0,
+		"end": 55,
+		"loc": {
+			"start": {
+				"line": 1,
+				"column": 0
+			},
+			"end": {
+				"line": 4,
+				"column": 0
+			}
+		},
+		"sourceType": "module",
+		"interpreter": null,
+		"body": [
+			{
+				"type": "ImportDeclaration",
+				"start": 0,
+				"end": 27,
+				"loc": {
+					"start": {
+						"line": 1,
+						"column": 0
+					},
+					"end": {
+						"line": 1,
+						"column": 27
+					}
+				},
+				"specifiers": [
+					{
+						"type": "ImportSpecifier",
+						"start": 9,
+						"end": 10,
+						"loc": {
+							"start": {
+								"line": 1,
+								"column": 9
+							},
+							"end": {
+								"line": 1,
+								"column": 10
+							}
+						},
+						"imported": {
+							"type": "Identifier",
+							"start": 9,
+							"end": 10,
+							"loc": {
+								"start": {
+									"line": 1,
+									"column": 9
+								},
+								"end": {
+									"line": 1,
+									"column": 10
+								},
+								"identifierName": "a"
+							},
+							"name": "a"
+						},
+						"local": {
+							"type": "Identifier",
+							"start": 9,
+							"end": 10,
+							"loc": {
+								"start": {
+									"line": 1,
+									"column": 9
+								},
+								"end": {
+									"line": 1,
+									"column": 10
+								},
+								"identifierName": "a"
+							},
+							"name": "a"
+						}
+					}
+				],
+				"source": {
+					"type": "StringLiteral",
+					"start": 18,
+					"end": 26,
+					"loc": {
+						"start": {
+							"line": 1,
+							"column": 18
+						},
+						"end": {
+							"line": 1,
+							"column": 26
+						}
+					},
+					"extra": {
+						"rawValue": "./a.js",
+						"raw": "'./a.js'"
+					},
+					"value": "./a.js"
+				}
+			},
+			{
+				"type": "ExpressionStatement",
+				"start": 29,
+				"end": 54,
+				"loc": {
+					"start": {
+						"line": 3,
+						"column": 0
+					},
+					"end": {
+						"line": 3,
+						"column": 25
+					}
+				},
+				"expression": {
+					"type": "CallExpression",
+					"start": 29,
+					"end": 53,
+					"loc": {
+						"start": {
+							"line": 3,
+							"column": 0
+						},
+						"end": {
+							"line": 3,
+							"column": 24
+						}
+					},
+					"callee": {
+						"type": "MemberExpression",
+						"start": 29,
+						"end": 40,
+						"loc": {
+							"start": {
+								"line": 3,
+								"column": 0
+							},
+							"end": {
+								"line": 3,
+								"column": 11
+							}
+						},
+						"object": {
+							"type": "Identifier",
+							"start": 29,
+							"end": 36,
+							"loc": {
+								"start": {
+									"line": 3,
+									"column": 0
+								},
+								"end": {
+									"line": 3,
+									"column": 7
+								},
+								"identifierName": "console"
+							},
+							"name": "console"
+						},
+						"computed": false,
+						"property": {
+							"type": "Identifier",
+							"start": 37,
+							"end": 40,
+							"loc": {
+								"start": {
+									"line": 3,
+									"column": 8
+								},
+								"end": {
+									"line": 3,
+									"column": 11
+								},
+								"identifierName": "log"
+							},
+							"name": "log"
+						}
+					},
+					"arguments": [
+						{
+							"type": "StringLiteral",
+							"start": 41,
+							"end": 49,
+							"loc": {
+								"start": {
+									"line": 3,
+									"column": 12
+								},
+								"end": {
+									"line": 3,
+									"column": 20
+								}
+							},
+							"extra": {
+								"rawValue": "a :>> ",
+								"raw": "'a :>> '"
+							},
+							"value": "a :>> "
+						},
+						{
+							"type": "Identifier",
+							"start": 51,
+							"end": 52,
+							"loc": {
+								"start": {
+									"line": 3,
+									"column": 22
+								},
+								"end": {
+									"line": 3,
+									"column": 23
+								},
+								"identifierName": "a"
+							},
+							"name": "a"
+						}
+					]
+				}
+			}
+		],
+		"directives": []
+	},
+	"comments": []
+}
